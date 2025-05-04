@@ -1,0 +1,53 @@
+.item img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.item {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 70%;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item p {
+  margin: 5px;
+}
+
+.totalBtn {
+  padding: 10px;
+  background-color: #f78b9d;
+  color: white;
+  border: none;
+}
+
+.totalBtn:hover {
+  cursor: default;
+}
+
+.cartPage {
+  display: flex;
+}
+
+.checkoutBtn {
+  padding: 10px;
+  background-color: pink;
+  color: white;
+  border: 4px solid #f78b9d;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.checkoutBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: pink;
+}
+
+.items_section {
+  min-width: 85%;
+  max-width: 85%;
+}

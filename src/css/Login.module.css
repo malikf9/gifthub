@@ -1,0 +1,74 @@
+.page_container {
+  display: flex;
+  overflow-y: auto;
+  background-color: #111152;
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+}
+
+.logo_container img {
+  height: 99vh;
+  object-fit: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 99vh;
+  width: 100%;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.form_group input {
+  margin: 10px;
+  padding: 10px 40px;
+  border: 5px solid white;
+  border-radius: 10px;
+  color: black;
+}
+
+form button {
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border: 2px solid #111152;
+  border-radius: 10px;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #111152;
+  color: white;
+  border: 2px solid white;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.ordesign {
+  color: white;
+  margin: 5px;
+}
+
+.txt_color {
+  color: white;
+}

@@ -1,0 +1,23 @@
+.txt-color {
+  color: white;
+}
+
+.items_section {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.items_section img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}

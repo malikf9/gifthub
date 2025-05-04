@@ -1,0 +1,9 @@
+.orderBtn {
+  padding: 10px;
+  background-color: pink;
+  border-radius: 30px;
+}
+
+.orderBtn:hover {
+  cursor: pointer;
+}
